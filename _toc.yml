@@ -4,16 +4,52 @@
 format: jb-book
 root: intro
 parts:
-  - caption:  Sorties
+  - caption:  Ecocystèmes visités
     chapters:  
-    - file: Sorties/Sorties_Main
-      sections:
-      - file: Sorties/Amphibiens
-  - caption:  Suivies
+    - file: Infos/Bassin-Arcachon
+    - file: Infos/Landes
+  - caption:  Les Aventures
     chapters:  
-    - file: Suivie/Suivie_Main
+    - file: Aventures/Sorties/Sorties_Main
       sections:
-      - file: Suivie/Hibou-Moyen-Duc
+      - file: Aventures/Sorties/Amphibiens
+    - file: Aventures/Suivie/Suivie_Main
+      sections:
+      - file: Aventures/Suivie/Hibou-Moyen-Duc
+  - caption:  Fiches Espèces
+    chapters:  
+    - file: Especes/Animal/Animal_Main
+      sections:
+      - file: Especes/Animal/Oiseaux/Oiseaux_Main
+        sections:
+        - file: Especes/Animal/Oiseaux/Pic_noir/Pic_noir
+        - file: Especes/Animal/Oiseaux/Engouvelevent/Engoulevent
+        - file: Especes/Animal/Oiseaux/Pie_grieche/Pie_grieche
+        - file: Especes/Animal/Oiseaux/Becasseau-sanderling/Becasseau-sanderling
+        - file: Especes/Animal/Oiseaux/Gobemouche-noir/Gobemouche-noir
+        - file: Especes/Animal/Oiseaux/Mouette/Mouette
+        - file: Especes/Animal/Oiseaux/Plongeon/Plongeon
+        - file: Especes/Animal/Oiseaux/Grues/Grues
+        - file: Especes/Animal/Oiseaux/Huitrier-pie/Huitrier-pie
+        - file: Especes/Animal/Oiseaux/Troglodyte-mignon/Troglodyte-mignon
+      - file: Especes/Animal/Mammifere/Mammifere_Main
+        sections:
+        - file: Especes/Animal/Mammifere/Genette/Genette
+        - file: Especes/Animal/Mammifere/Vison/Vison
+        - file: Especes/Animal/Mammifere/Loutre/Loutre
+      - file: Especes/Animal/Insectes/Insectes_Main
+        sections:
+        - file: Especes/Animal/Insectes/Calopteryx/Calopteryx
+        - file: Especes/Animal/Insectes/Hoplie-bleu/Hoplie-bleu
+    - file: Especes/Vegetal/Vegetal_Main
+      sections:
+      - file: Especes/Vegetal/Drosera/Drosera
+    - file: Especes/Champi/Champi_Main
+  - caption:  Tutos
+    chapters:
+    - file: Tutos/Reconnaissances/Reco
+    - file: Tutos/Inventaires/Inventaires    
+    - file: Tutos/Pelotes/Pelotes
 
     
 
